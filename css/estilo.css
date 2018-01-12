@@ -38,17 +38,23 @@ a {
 
 /*rodape a partir daqui */
 
+div .mae{
+  margin: 0px;
+}
+
 #rodape_container{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #1B1B1E;
+  color: white
 
 }
 
 #rodape_item1{
 
-  font-weight: bold;
+  font-weight: none;
 
 }
 
@@ -73,4 +79,8 @@ div .redes-sociais{
 
 #twitter{
   margin-top: -10px;
+}
+
+h5{
+  font-size: 1.4em;
 }
